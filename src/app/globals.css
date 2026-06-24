@@ -15,16 +15,17 @@
     --font-heading: var(--font-sans);
     --font-sans: var(--font-sans);
   }
+  
   :root {
-    --background: 222.2 84% 4.9%; /* slate-950 equivalent */
+    --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
-    --card: 222.2 47.4% 11.2%; /* slate-900 equivalent */
+    --card: 222.2 47.4% 11.2%;
     --card-foreground: 210 40% 98%;
     --popover: 222.2 47.4% 11.2%;
     --popover-foreground: 210 40% 98%;
-    --primary: 142.1 76.2% 36.3%; /* emerald-600 / #4CAF50 */
+    --primary: 142.1 76.2% 36.3%;
     --primary-foreground: 355.7 100% 97.3%;
-    --secondary: 37.7 92.1% 50.2%; /* amber-500 */
+    --secondary: 37.7 92.1% 50.2%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
@@ -32,21 +33,22 @@
     --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%; /* border-slate-800 */
+    --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 142.1 76.2% 36.3%;
     --radius: 0.5rem;
   }
+  
   .dark {
-    --background: 222.2 84% 4.9%; /* slate-950 equivalent */
+    --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
-    --card: 222.2 47.4% 11.2%; /* slate-900 equivalent */
+    --card: 222.2 47.4% 11.2%;
     --card-foreground: 210 40% 98%;
     --popover: 222.2 47.4% 11.2%;
     --popover-foreground: 210 40% 98%;
-    --primary: 142.1 76.2% 36.3%; /* emerald-600 / #4CAF50 */
+    --primary: 142.1 76.2% 36.3%;
     --primary-foreground: 355.7 100% 97.3%;
-    --secondary: 37.7 92.1% 50.2%; /* amber-500 */
+    --secondary: 37.7 92.1% 50.2%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
@@ -54,15 +56,16 @@
     --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%; /* border-slate-800 */
+    --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 142.1 76.2% 36.3%;
   }
+
   * {
-    @apply border-border;
+    @apply border-zinc-800;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-zinc-950 text-zinc-200;
   }
   html {
     @apply font-sans;
