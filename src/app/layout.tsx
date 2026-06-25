@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { LayoutDashboard, Timer, BookOpenCheck, CalendarDays, LineChart, User, Trophy } from "lucide-react";
 import Link from "next/link";
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -109,6 +110,7 @@ export default function RootLayout({
           </Link>
         </nav>
         
+        <Toaster theme="dark" richColors position="top-right" />
       </body>
     </html>
   );
